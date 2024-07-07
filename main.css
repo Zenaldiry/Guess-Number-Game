@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  color: white;
+  .AgainBtn {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  p {
+    font-size: 60px;
+    color: white;
+  }
+  .true {
+    font-size: 70px;
+    padding: 10px 75px;
+    background-color: white;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  .box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .numIn {
+      height: 60px;
+      font-size: 50px;
+      width: 100px;
+    }
+    .checkBtn {
+      height: 60px;
+      width: 100px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .score,
+    .highScore,
+    .hint {
+      font-size: 50px;
+    }
+  }
+}
